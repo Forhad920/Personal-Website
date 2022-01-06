@@ -56,7 +56,7 @@
 /* start of mission section */
 .mission-section {
   margin-top: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .mission-section h1 {
   text-align: center;
@@ -121,3 +121,37 @@
   margin-left: 30px;
   width: 90%;
 }
+/* end of mission section */
+/* start of develop of section */
+.develop-section {
+  display: flex;
+  margin-bottom: 50px;
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.develop-img img {
+  max-width: 60%;
+  margin-left: 140px;
+}
+.develop-text {
+  margin-top: 30px;
+  margin-right: 250px;
+}
+.develop-text h1 {
+  font-size: 40px;
+  color: #333333;
+}
+.develop-text p {
+  color: #3e3e3e;
+  width: 520px;
+  margin-bottom: 20px;
+}
+.develop-text .developer-button {
+  text-decoration: none;
+  background-color: #ff5959;
+  color: white;
+  padding: 13px 30px;
+  border-radius: 5px;
+}
+/* end of developing section */
