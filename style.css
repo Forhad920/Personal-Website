@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* start of hero section */
+.hero-section {
+  display: flex;
+  margin-bottom: 30px;
+}
+.hero-text {
+  margin-left: 40px;
+  margin-top: 100px;
+}
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+  border-left: 5px solid #ff5959;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 170px;
+  margin-bottom: 20px;
+}
+.hero-text h1 span {
+  color: #ffad5a;
+}
+.hero-text p {
+  width: 490px;
+  margin-left: 20px;
+  color: #3d3d3d;
+  margin-bottom: 30px;
+}
+.link-button {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  background-color: #ff5959;
+  color: white;
+  padding: 10px 38px;
+  border-radius: 5px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 50px;
+}
+.hero-img img {
+  width: 88%;
+  padding-left: 150px;
+}
+.extra-text {
+  margin-top: 40px;
+}
+/* end of hero section */
+/* start of mission section */
+.mission-section {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.mission-section h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.mission-section h1 span {
+  color: #ffad5a;
+}
+.mission-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  width: 90%;
+  margin-left: 40px;
+}
+.mission-card img {
+  width: 40%;
+}
+.mission-card p {
+  width: 420px;
+}
+.mission-card .card-1 {
+  background-color: rgba(79, 157, 166, 10%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+  border-radius: 15px;
+}
+.mission-card .card-1 h2 {
+  margin-left: 30px;
+}
+.mission-card .card-1 p {
+  margin-left: 30px;
+  width: 90%;
+}
+.mission-card .card-2 {
+  background-color: rgba(255, 89, 89, 10%);
+  padding: 50px 0px;
+  width: 400px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+.mission-card .card-2 h2 {
+  margin-left: 30px;
+}
+.mission-card .card-2 p {
+  width: 90%;
+  margin-left: 30px;
+}
+.mission-card .card-3 {
+  background-color: #fff4d6;
+  padding: 50px 0px;
+  width: 400px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+.mission-card .card-3 h2 {
+  margin-left: 30px;
+}
+.mission-card .card-3 p {
+  margin-left: 30px;
+  width: 90%;
+}
