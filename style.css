@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -125,7 +126,7 @@
 /* start of develop of section */
 .develop-section {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   background-image: url(./images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: left;
@@ -136,18 +137,19 @@
 }
 .develop-text {
   margin-top: 30px;
-  margin-right: 250px;
+  margin-right: 150px;
 }
 .develop-text h1 {
   font-size: 40px;
   color: #333333;
+  margin-bottom: 20px;
 }
 .develop-text p {
   color: #3e3e3e;
-  width: 520px;
-  margin-bottom: 20px;
+  width: 570px;
+  margin-bottom: 30px;
 }
-.develop-text .developer-button {
+.developer-button {
   text-decoration: none;
   background-color: #ff5959;
   color: white;
@@ -155,3 +157,80 @@
   border-radius: 5px;
 }
 /* end of developing section */
+/* start of community section */
+.community-section {
+  display: flex;
+  margin-bottom: 150px;
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.community-section .community-text {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.community-section .community-text h1 {
+  font-size: 40px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.community-section .community-text p {
+  width: 90%;
+  margin-bottom: 30px;
+}
+.community-section .community-img img {
+  width: 80%;
+}
+/* end of community section */
+/* start of mobile application*/
+.mobile-application {
+  margin-bottom: 150px;
+}
+.mobile-application h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.mobile-application h1 span {
+  color: #ffad5a;
+}
+.mobile-content {
+  display: flex;
+  width: 90%;
+}
+.app-text {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.app-text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.app-text h2 span {
+  color: #ffad5a;
+}
+.app-text p {
+  margin-bottom: 40px;
+}
+.app-img {
+  margin-left: 100px;
+}
+/* end of mobile appication */
+/* start of footer */
+footer {
+  text-align: center;
+  background: #0b0d17;
+  color: #fff;
+  padding: 50px 0;
+}
+footer h3 {
+  font-size: 40px;
+  font-family: "Pacifico", cursive;
+}
+footer h3 span {
+  color: #ff5959;
+}
+footer p {
+  color: #d9dbe1;
+}
+/* end of footer */
